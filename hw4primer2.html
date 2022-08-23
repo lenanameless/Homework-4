@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 2</title>
+</head>
+<body>
+
+    <script>
+
+        let x = 0.8;
+        let y = -3.75;
+
+        let a = Math.pow (Math.cos(4 * x), 2) - (1 + Math.cos(4 * y)) / 2;
+
+        if (a < Math.sin(Math.pow(y,2))) {
+            r = Math.PI / 4 - x;
+        }
+
+        else if (a <= Math.sin(Math.pow((y-1),2))) {
+            r = Math.tan(x) + Math.tan(Math.PI / 4 * x);
+        }
+
+        alert(r);
+
+
+
+    </script>
+    
+</body>
+</html>
